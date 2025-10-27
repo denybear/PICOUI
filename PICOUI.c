@@ -34,10 +34,8 @@
 #include "tusb.h"
 #include "tusb_config.h"
 // rotary encoder + button
-#include "encoder.c"
-#include "button.c"
+#include "encoder_button.h"
 // matrix keypad
-#include "keypad.c"
 #include "keypad.h"
 // neopixel LEDs
 #include "ws2812.pio.h"			// in pico_examples git

@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(PICOUI PICOUI.c  usb_descriptors.c)
+add_executable(PICOUI PICOUI.c  usb_descriptors.c encoder_button.c keypad.c)
 
 pico_set_program_name(PICOUI "PICOUI")
 pico_set_program_version(PICOUI "0.1")
